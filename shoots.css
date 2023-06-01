@@ -1,0 +1,47 @@
+.navbar-brand > img {
+    height: 70px;
+    width: 140px;
+}
+.containerr{
+    height: 70px;
+    justify-content: center;
+}
+.shoots{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+img{
+    width: 450px;
+    height: 300px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px 10px;
+    transition: all 0.5s;
+}
+img:hover{
+    transform: scale(1.05);
+    
+}
+
+.shoots2{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.shoots2 > img{
+    width: 360px;
+    height: 508px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px 10px;
+    transition: all 0.5s;
+}
+.shoots > img:hover{
+    transform: scale(1.05);
+    
+}
