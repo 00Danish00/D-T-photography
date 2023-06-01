@@ -14,7 +14,7 @@
         }
 
         .container {
-            max-width: 500px;
+            max-width: 600px;
             padding: 20px;
             background-color: #fff;
             border-radius: 5px;
@@ -33,6 +33,7 @@
             font-size: 16px;
             margin-bottom: 20px;
         }
+
         .goback-btn {
             padding: 10px 20px;
             background-color: #8BC34A;
@@ -41,25 +42,26 @@
             border-radius: 4px;
             font-size: 16px;
             cursor: pointer;
+            text-decoration: none;
         }
 
         .goback-btn:hover {
             background-color: #7CB342;
+        }
+
+        .goback-btn a {
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Thank You!</h1>
-        <p>We have received your details. Thank you!</p>
-        <button class="goback-btn" onclick="goBack()">Go Back to Home Page</button>
-    </div>
-
-    <script>
-        function goBack() {
-            window.history.back();
-        }
-    </script>
+        <p>We have received your details.<br><br>
+            A confirmation mail has been sent to your mail.
+        </p>
+        <br>
+        <a href="index.html" class="goback-btn">Go Back to Home Page</a>
     </div>
 </body>
 </html>
